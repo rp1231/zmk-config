@@ -21,11 +21,11 @@ keymap {
 
     bt_layer {
       bindings = <
-                &trans     &trans         &trans        &trans 
-                &trans     &trans         &trans        &bt BT_SEL 0
-                &trans     &bootloader    &trans        &bt BT_SEL 0
-                &trans     &trans         &trans        &bt BT_SEL 1
-                &bt BT_CLR &bt BT_CLR     &sys_reset    &bt BT_SEL 1
+                  &kp LCTRL     &kp LSHIFT     &kp TAB   &kp ESC
+                  &kp Z         &kp A          &kp Q     &kp N2
+                  &kp X         &kp S          &kp W     &kp N3
+                  &kp C         &kp D          &kp E     &kp N4
+                  &kp V         &kp F          &kp R     &kp N5
       >;
     };
  };
