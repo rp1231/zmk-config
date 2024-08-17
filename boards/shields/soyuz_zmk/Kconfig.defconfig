@@ -3,4 +3,6 @@ if SHIELD_SOYUZZMK
 config ZMK_KEYBOARD_NAME
     default "SoyuzZmk"
 
+CONFIG_ZMK_HID_REPORT_TYPE_NKRO=y
+
 endif
