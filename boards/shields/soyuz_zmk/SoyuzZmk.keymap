@@ -11,11 +11,11 @@ keymap {
 
     default_layer {
     bindings = <
-                &kp A     &kp KP_DIVIDE     &kp KP_MULTIPLY &kp ESC
-                &kp Z     &kp A         &kp Q           &kp N2
-                &kp X     &kp S         &kp W           &kp N3
-                &kp C     &kp D         &kp E           &kp N4
-                &kp V     &kp F         &kp R           &kp N5
+                &kp LCTRL     &kp LSHIFT     &kp TAB   &kp ESC
+                &kp Z         &kp A          &kp Q     &kp N2
+                &kp X         &kp S          &kp W     &kp N3
+                &kp C         &kp D          &kp E     &kp N4
+                &kp V         &kp F          &kp R     &kp N5
             >;
     };
 
