@@ -30,3 +30,14 @@ keymap {
     };
  };
  };
+
+ / {
+    combos {
+        compatible = "zmk,combos";
+        combo_studio_unlock {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&studio_unlock>;
+        };
+    };
+};
