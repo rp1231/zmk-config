@@ -3,7 +3,7 @@
 
 &macropad_physical_layout {
     kscan = <&default_kscan>;
-    transform = <&matrix_transform>;
+    transform = <&default_transform>;
 };
 
 /{
