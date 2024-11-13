@@ -1,4 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "soyuz_zmk-layout.dtsi"
+
+&physical_layout0 {
+    transform = <&matrix_transform>
+};
 
 /{
     chosen {
@@ -37,4 +42,6 @@
             RC(4,0) RC(4,1) RC(4,2) RC(4,3)
         >;
     };
+
+
 };
