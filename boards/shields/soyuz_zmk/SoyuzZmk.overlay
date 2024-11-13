@@ -2,7 +2,8 @@
 #include "soyuz_zmk-layout.dtsi"
 
 &macropad_physical_layout {
-    transform = <&matrix_transform>
+    kscan = <&default_kscan>;
+    transform = <&matrix_transform>;
 };
 
 /{
