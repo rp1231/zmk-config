@@ -30,7 +30,7 @@
 		};
 		
 		extra0 {
-			display-name = "reserved";
+			status = "reserved";
 		};
 		
 		extra1 {
