@@ -31,7 +31,6 @@
 		
 		extra0 {
 			display-name = "reserved";
-			bindings =// etc.
 		};
 		
 		extra1 {
